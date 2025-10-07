@@ -12,7 +12,7 @@ const Nav = () => {
         <a className="navbar-brand" href="#">
           {/* <img src={logo} alt="Logo" width={160} /> */}
           <p className="text-white font-bold">
-            <span className="wordpress-color"> AB </span> Designs
+            <span className="wordpress-color "> Designs </span> by Moiz
           </p>
         </a>
         <button

@@ -15,13 +15,13 @@ const Footer = () => {
               <p>
                 <span className="wordpress-color fs-5">
                   <i className="ri-phone-fill"></i>
-                </span> {" "}
+                </span>{" "}
                 +92 316 6911575
               </p>
               <p>
                 <span className="wordpress-color fs-5">
                   <i className="ri-mail-fill"></i>
-                </span> {" "}
+                </span>{" "}
                 moiz10539@gmail.com
               </p>
             </div>
@@ -41,13 +41,13 @@ const Footer = () => {
               >
                 <i className="ri-linkedin-fill fs-4"></i>
               </a>
-              <a
+              {/* <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://www.facebook.com/profile.php?id=61563934746918"
               >
                 <i className="ri-facebook-fill fs-4"></i>
-              </a>
+              </a> */}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -55,13 +55,13 @@ const Footer = () => {
               >
                 <i className="ri-instagram-fill fs-4"></i>
               </a>
-              <a
+              {/* <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/irfantkd"
               >
                 <i className="ri-github-fill fs-4"></i>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

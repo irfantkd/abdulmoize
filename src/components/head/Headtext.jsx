@@ -1,6 +1,6 @@
 import React from "react";
 import Experience from "../experience/Experience";
-import headimg from "../../images/irfan.jpg";
+import headimg from "../../images/about.jpg";
 
 const Headtext = () => {
   return (
@@ -8,6 +8,25 @@ const Headtext = () => {
       <section>
         <div className="container px-5  ">
           <div className="row align-items-center">
+            {/* Image Section */}
+            <div className="col-lg-5 col-md-12 text-center text-5xl">
+              <div
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                className="head-img "
+              >
+                <img
+                  className="img-fluid rounded-circle" // Ensures the image is responsive and circular
+                  src={headimg}
+                  alt="About me"
+                  style={{
+                    height: "450px",
+                    width: "450px",
+                    objectFit: "cover",
+                  }} // Added object-fit for perfect circle
+                />
+              </div>
+            </div>
             {/* Text Section */}
             <div className="col-lg-7 col-md-12 mb-4 mb-lg-0">
               <div
@@ -29,26 +48,6 @@ const Headtext = () => {
                     Resume
                   </a>
                 </div>
-              </div>
-            </div>
-
-            {/* Image Section */}
-            <div className="col-lg-5 col-md-12 text-center">
-              <div
-                data-aos="fade-left"
-                data-aos-duration="1000"
-                className="head-img "
-              >
-                <img
-                  className="img-fluid rounded-circle" // Ensures the image is responsive and circular
-                  src={headimg}
-                  alt="About me"
-                  style={{
-                    height: "450px",
-                    width: "450px",
-                    objectFit: "cover",
-                  }} // Added object-fit for perfect circle
-                />
               </div>
             </div>
           </div>
